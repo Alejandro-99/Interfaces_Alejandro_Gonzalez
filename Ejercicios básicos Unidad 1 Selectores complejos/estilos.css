@@ -1,0 +1,34 @@
+td[colspan = "2"],[rowspan="2"]{
+    background-color: #234E54
+}
+td[colspan = "3"],[rowspan="3"]{
+    background-color: #ACA759;
+}
+td[colspan = "4"],[rowspan="4"]{
+    background-color: #CEA885;
+}
+#pregunta1,#pregunta2,#pregunta3,#pregunta4,#pregunta5,#pregunta6{
+    color: #b322b8; 
+}
+.negrita{
+    font-weight: bold;
+}
+li[id] [class = "negrita"]{
+    font-weight: bold;
+    background-color: #FF9;
+}
+.comentarios{
+    font-style: italic;
+    border: thin dotted #AC8159;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+p+p{
+    text-decoration: underline;
+}
+li>[href = "#"]{
+    background-color: cornflowerblue;
+}
+.cursiva{
+    font-style: italic;
+}
