@@ -1,0 +1,36 @@
+table{
+    width: 100%;
+}
+p:first-of-type{
+    font-style: italic;
+    font-weight: bold;
+    text-indent: 2rem;
+    
+}
+#consejo{
+    color: purple;
+    background-color: rgb(245, 167, 22);  
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#textolinea{
+    text-decoration-line: underline;
+    background-color: wheat;
+    text-transform: capitalize;
+}
+h3{
+    background-color: rgb(126, 84, 7);
+    color:white;
+}
+.clase{
+    font-style: italic;
+    color: purple;
+}
+h4[class ="clase"]{
+    font-weight: lighter;
+}
+#idparaestilo{
+    background-color: rgb(124, 86, 124);
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,40 @@
+* { /* Todos los elementos de la página tienen borde */
+    border: thin solid #442A5D;
+}
+span[id = "negrita"]{
+    display: block;
+}
+.enLinea{
+    display: inline;
+}
+.enLista {
+    display: list-item;
+    list-style-position: outside;
+    list-style-type: square;
+    margin-left: 3em;
+}
+.oculto{
+    display: none;
+}
+.bloqueenlinea{
+    display:inline-block;
+    height: 10em;
+    width: 10em;
+}
+.celda-tabla{
+    display: table-cell;
+}
+.desplazado{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+.prueba{
+    /* position: absolute;
+    top: 20px;
+    right: 20px; */
+    /* position: static; */
+    position:sticky;
+}
+
+/* Del resto hay que crear clases por cada párrafo, en función de la propiedad display */
