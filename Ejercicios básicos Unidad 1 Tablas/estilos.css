@@ -1,0 +1,55 @@
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th[class="euro"]{
+    background-image: url(imagenes/euro.png);
+    background-color: rgb(159, 188, 243);
+    background-repeat: no-repeat;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-bottom: 0.3em;
+}
+th[class="dolar"]{
+    background-image: url(imagenes/dolar.png);
+    background-color: rgb(159, 188, 243);
+    background-repeat: no-repeat;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 1rem;
+    padding-bottom: 0.3em;
+}
+th[class="libra"]{
+    background-image: url(imagenes/libra.png);
+    background-color: rgb(159, 188, 243);
+    background-repeat: no-repeat;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-bottom: 0.3em;
+}
+th[class="yen"]{
+    background-image: url(imagenes/yen.png);
+    background-color: rgb(159, 188, 243);
+    background-repeat: no-repeat;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 1rem;
+    padding-bottom: 0.3em;
+}
+.cabecera{
+    background-image: url(imagenes/fondo_gris.gif);
+    background-repeat: no-repeat;
+    background-color: rgb(247, 244, 244);
+    height: 3.5em;
+    vertical-align: bottom;  
+}
+td{
+    vertical-align: bottom;  
+    text-align: center;
+}
+.par th[class="euro"] ~ td  {
+    background-color: yellow;
+}
+.par th[class="libra"] ~ td{ 
+    background-color:moccasin;
+}
