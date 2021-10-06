@@ -1,0 +1,43 @@
+.div1{
+    padding: 0.5em;
+    width: 35em;
+    height: 30em;
+    border: solid 1px;
+}
+.div1> div{
+    width:calc(33% - 1.1em);
+    height: calc(33.33% - 1em);
+    margin: 0.5em;
+    display: inline-block;		
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+/* fila 1 */
+.div1 div:nth-child(2){
+   visibility: hidden;
+}
+
+/* fila 2 */
+
+.div1 div:nth-child(4){
+    background-color: green;
+    display: none;
+}
+.div1 div:nth-child(5){
+    background-color: green;
+}
+.div1 div:nth-child(6){
+    background-color: green;
+    visibility: hidden;
+}
+/* fila 3 */
+.div1 div:nth-child(7){
+    background-color: blue;
+}
+.div1 div:nth-child(8){
+    background-color: blue;
+    display: none;
+}
+.div1 div:nth-child(9){
+    background-color: blue;
+}
