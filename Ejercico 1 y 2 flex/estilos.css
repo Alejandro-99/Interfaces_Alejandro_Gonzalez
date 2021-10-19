@@ -1,0 +1,32 @@
+.contenedor1{
+    display: inline-flex;
+    flex-direction: row;
+    background-color: greenyellow;
+    width: 48%;
+    margin-bottom: 2rem;
+}
+.contenido1{
+    background-color: red;
+    color: white;
+	width: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3rem;
+	text-align: center;
+	line-height: 5rem;
+	font-size: 20px;  
+}
+.contenedor2{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: greenyellow;
+    width: auto;
+    margin-bottom: 2rem;
+}
+.contenedor3{
+    display: flex;
+	flex-direction: column-reverse; 
+    background-color: greenyellow;
+    width: auto;
+    margin-top: 0;
+}
