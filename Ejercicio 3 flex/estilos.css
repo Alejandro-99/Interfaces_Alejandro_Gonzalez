@@ -1,0 +1,39 @@
+.contenedor1{
+    background-color: blue;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.contenedor2{
+    background-color: blue;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+}
+.contenido1{
+    background-color: cadetblue;
+    color: white;
+    border: solid 1px white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor1 > div:nth-child(5){
+    align-self:flex-start;
+   
+}
+.contenedor2 > div:nth-child(5){
+    align-self: flex-end;
+}
