@@ -6,7 +6,7 @@
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap-reverse;
-    align-items: center;
+    align-content: center;
     margin-bottom: 100px;
 }
 .contenedor2{
