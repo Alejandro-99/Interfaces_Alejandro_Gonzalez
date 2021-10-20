@@ -1,0 +1,74 @@
+body {
+    background-color: aquamarine;
+}
+#contenedorPadre {
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#contenedor1 {
+    background-color: grey;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: space-around;
+}
+#contenedor1 div:nth-child(3){
+    align-self: flex-start;
+}
+#contenedor2 {
+    background-color: grey;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+#contenedor2 div:nth-child(3){
+    align-self: flex-end;
+}
+#contenedor3 {
+    background-color: grey;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    
+}
+.contenido {
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenido1 , .contenido2 , .contenido3 , .contenido4 , .contenido5 {
+    background-color: red;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenido1 {
+    height: 50%;
+}
+.contenido2 {
+    height: 40%;
+}
+.contenido3 {
+    height: 65%;
+}
+.contenido4 {
+    height: 80%;
+}
+.contenido5 {
+    height: 10%;
+}
