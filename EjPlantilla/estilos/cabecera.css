@@ -1,0 +1,93 @@
+/* Estilos generales cabecera: */
+#cabecera {
+    background: rgb(24, 24, 24);
+    color: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Cabecera parte de la izquierda*/
+/*Contenedor de la izquierda */
+#img-logI {
+    width: 20%;
+    height: 100%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+/*Contenido de la izquierda */
+.img-barrita {
+    content: url(../img/opciones.png);
+    width: 22px;
+    min-width: 20px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+}
+.img-envi {
+    content: url(../img/enviar.png);
+    width: 20px;
+    min-width: 18px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.logo-letras {
+    height: 100%;
+    font-family: fantasy;
+    font-size:30px;
+    display: flex;
+    align-items: center;
+}
+#img-logI > div:hover {
+    filter: opacity(.5);
+}
+/*Cabecera parte de la derecha*/
+/*Contenedor de la derecha */
+#botones-imgD {
+    width: 27%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+}
+/*Contenido de la derecha */
+.img-carrito {
+    content: url(../img/carrito.png);
+    width: 60px;
+    min-width: 48px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.botones-fake {
+    width:auto;
+    height: 2em;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: inset 0px -4px 7px  rgb(59, 59, 59);
+    background-color: rgb(241, 239, 239);
+    color: black;
+    font-family: Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+.barr-busc > input{
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(175, 175, 175);
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.img-carrito:hover , .botones-fake:hover {
+    filter: opacity(.5);
+}

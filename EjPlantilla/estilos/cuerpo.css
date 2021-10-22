@@ -1,0 +1,95 @@
+/* Contenedor 1 imagen grande */
+#cuerpo1-imagen {
+    content: url(../img/Captura.PNG);
+    width:800px;
+    height: 400px;
+    margin-top: 1em;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+/* Contenedor 2 letras del medio */
+#cuerpo2-texto {
+    width: 100%;
+    height: 70px;
+    font-size: 2.5rem;
+    font-family: fantasy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Contenedor 3  */
+#cuerpo3-imagenes {
+    height: 310px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+/* Contenedor de tres imagenes */
+.img-c3 {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+/* Tres imagenes div*/
+.img1-cuerpo3 {
+    background-image: url(../img/image.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.img2-cuerpo3 {
+    background-image: url(../img/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.img3-cuerpo3 {
+    background-image: url(../img/image3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.img1-cuerpo3:hover , .img2-cuerpo3:hover , .img3-cuerpo3:hover {
+    filter: opacity(.8);
+}
+/* Tres textos de las imagenes */
+.texto-img {
+    color: white;
+    opacity: 0.8;
+    font-size: 0.7rem;
+    background:rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    height: 20%;
+    display: flex;
+    border-radius: 0 0 4px 4px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self:flex-end;
+}
