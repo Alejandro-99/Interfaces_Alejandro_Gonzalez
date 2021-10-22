@@ -71,10 +71,9 @@
     height: 2em;
     padding: 8px;
     border-radius: 5px;
-    box-shadow: inset 0px -4px 7px  rgb(59, 59, 59);
+    box-shadow: inset 0px -6px 7px  rgb(59, 59, 59);
     background-color: rgb(241, 239, 239);
     color: black;
-    font-family: Verdana, sans-serif;
     display: flex;
     align-items: center;
 }

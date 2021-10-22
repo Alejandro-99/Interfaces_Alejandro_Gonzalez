@@ -1,6 +1,6 @@
 /* Estilos generales pie de pagina */
 #piedepag {
-    position: fixed;
+    position: sticky;
     bottom: 0;
     background: rgb(0, 0, 0);
     color: white;
