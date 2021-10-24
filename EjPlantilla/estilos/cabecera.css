@@ -1,5 +1,7 @@
 /* Estilos generales cabecera: */
 #cabecera {
+    position: sticky;
+    top: 0;
     background: rgb(24, 24, 24);
     color: white;
     height: 70px;

@@ -1,7 +1,5 @@
 /* Estilos generales pie de pagina */
 #piedepag {
-    position: sticky;
-    bottom: 0;
     background: rgb(0, 0, 0);
     color: white;
     height: 100px;
