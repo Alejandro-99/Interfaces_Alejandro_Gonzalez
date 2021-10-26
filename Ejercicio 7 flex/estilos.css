@@ -1,0 +1,138 @@
+/* Genereales */
+body {
+    margin: 0;
+}
+/* Cabecera */
+#cabecera {
+    position: sticky;
+    top: 0;
+    background: rgb(39, 44, 56);
+    color: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#cabe-izq {
+    font-size:1.8rem;
+    margin-left: 1rem;
+}
+#cabe-dere {
+    display: flex;
+    flex-direction: row;
+    background: rgb(210, 72, 30);
+    margin-right:1rem;
+}
+#cabe-dere div {
+    height: 2.5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Cuerpo */
+#cuerpo {
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+}
+#cuer-izq {
+    margin-left: 3em;
+    margin-right: 3em;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+#cuer-izq div {
+    padding-bottom:2em;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px black;
+}
+span {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#cuer-der {
+    background: rgb(255, 119, 8);
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cuer-der-emb-1 {
+    height: 45%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    background: rgb(212, 65, 12);
+}
+.cuer-der-emb-1 div {
+    width: 50%;
+    height: 50%;
+    background: rgb(148, 0, 0);
+}
+.cuer-der-emb-1 div:nth-child(2) {
+    align-self: flex-end;
+}
+.cuer-der-emb-2 {
+    height: 45%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    background: rgb(212, 65, 12);
+}
+.cuer-der-emb-2 div {
+    width: 50%;
+    height: 50%;
+    background: rgb(148, 0, 0);
+}
+.cuer-der-emb-2 div:first-child {
+    align-self: flex-end;
+}
+/* Pie de pagina */
+#pie-pag {
+    background: rgb(39, 44, 56);
+    color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#pie-izq {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    background: rgb(210, 72, 30);
+    margin-right:1rem;
+}
+#pie-izq div {
+    height: 2.8rem;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pie-der {
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+#pie-der div {
+    background: rgb(255, 119, 8);
+    height: 2.8rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
