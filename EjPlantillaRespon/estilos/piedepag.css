@@ -1,0 +1,71 @@
+/* Estilos generales pie de pagina */
+#piedepag {
+    background: rgb(0, 0, 0);
+    color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    grid-area:3/1/span 1/span 11;
+}
+/* Contenedor de la izquierda */
+#infoI {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.info-geneI {
+    font-size: 0.95em;
+}
+.info-geneI:hover , .info-geneD:hover {
+    filter: opacity(.5);
+}
+/* Cotenedor de la derecha  */
+#infoD {
+    height: 90px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+/* Contenido letras derecha */
+.info-geneD {
+    font-size: 0.9em;
+    justify-content: center;
+}
+/* Contenido derecha imagenes*/
+#img-redes {
+    height: 4rem;
+    width:65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.imagen-tumbler {
+    content: url(../img/tumblr.png);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.imagen-insta {
+    content: url(../img/instagram.png);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+.imagen-facebook {
+    content: url(../img/logo-de-facebook.png);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.imagen-facebook:hover, .imagen-insta:hover, .imagen-tumbler:hover {
+    filter: opacity(.5);
+}
