@@ -14,17 +14,17 @@ img {
     max-width: 100%;
     height: auto;
 }
-@media screen and (max-width: 1650px) {
+@media screen and (max-width: 1800px) {
     #cuerpo3-imagenes {
         width: 50%;
     }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1650px) {
     #cuerpo3-imagenes {
         width: 65%;
     }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1350px) {
     #cuerpo1-imagen {
         width: 60%;
         height: 40%;
@@ -33,7 +33,7 @@ img {
         width: 70%;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     #cabecera {
         height: 2.8rem;
     }
@@ -87,7 +87,7 @@ img {
     }
 
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1024px) {
     #cuerpo1-imagen {
         width: 80%;
         height: 40%;
