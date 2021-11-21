@@ -1,0 +1,13 @@
+Movil:
+
+Cabecera- cambiar los % que ocupan los divs de la izq 40% y derecha 50%
+
+Cuerpo- hacer q las imagenes esten con un dispaly colum q ocupen el 100% y sin wrap
+
+Footer- q el contenido se distribulla por el footer
+
+
+Tablet:
+ 
+CUerpo- contenido en vez de que ocupe tres q ocupe 2
+
