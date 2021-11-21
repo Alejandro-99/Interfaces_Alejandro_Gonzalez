@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    background: rgb(228, 228, 228);
+    font-family: sans-serif;
+    font-size: 1em;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(10, 1fr);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 1650px) {
+    #cuerpo3-imagenes {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1350px) {
+    #cuerpo3-imagenes {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #cuerpo1-imagen {
+        width: 60%;
+        height: 40%;
+    }  
+    #cuerpo3-imagenes {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 800px) {
+    #cabecera {
+        height: 2.8rem;
+    }
+    .botones-fake {
+        display: none;
+    }
+    .logo-letras {
+        font-size: 1.3rem;
+    }
+    .img-carrito {
+        width: 40px;
+        height: 32px;
+    }
+    #cuerpo3-imagenes {
+        width: 80%;
+    }
+    #cuerpo1-imagen {
+        width: 70%;
+        height: 50%;
+    }
+    #piedepag {
+        height: 2.5rem;
+    }
+    #infoI {
+        display: none;
+    }
+    #infoD {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
+    }
+    .info-geneD {
+        font-size: 1em;
+    }
+    #img-redes {
+        width: 30%;
+        height: auto;
+    }
+    .imagen-tumbler {
+        height: 2rem;
+        width: 2rem;
+    }
+    .imagen-insta {
+        height: 1.6rem;
+        width: 1.6rem;
+    }
+    .imagen-facebook {
+        height: 1.7rem;
+        width: 1.7rem;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    #cuerpo1-imagen {
+        width: 80%;
+        height: 40%;
+    } 
+    .img1-cuerpo3, .img2-cuerpo3, .img3-cuerpo3 {
+        width: 300px;
+        height: 380px; 
+    }
+} 
