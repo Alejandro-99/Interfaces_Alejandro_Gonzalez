@@ -1,0 +1,38 @@
+body{
+	margin: 0;	
+}
+
+.container {
+	display: grid;
+	height: 100vh;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 15vh 1fr 15vh;
+	grid-gap: 5px;
+}
+
+.item {
+	background: #89ece1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container > header {
+
+	grid-area: 1/4/span 1/span 6;
+	
+}
+
+.container > main {
+
+	grid-area: 2/6/span 1/span 7;
+	
+}
+
+.container > aside {
+	grid-area: 2/1/span 1/span 4;
+}
+
+.container > footer {
+	grid-area: 3/5/sapn 1/span 4;
+}
