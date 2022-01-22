@@ -1,0 +1,21 @@
+body {background:#333;}
+
+h1 {
+	color: aliceblue;
+	margin:0;
+	padding:0;
+	width: fit-content;
+}
+.titulo {				
+	animation-name: titulo;
+	animation-delay: 2s;
+	animation-duration: 4s;
+	animation-iteration-count: 1;	
+}
+			
+@keyframes titulo {
+	0% {transform: translateX(1550px)}	
+	33% {transform: translateX(1050px) rotate(90deg) }	
+	66% {transform: translateX(500px) rotate(180deg) }				
+	100% {transform: translateX(0px), rotate(270deg)} 
+}

@@ -1,0 +1,17 @@
+.ball{				
+	animation-name: ballmove;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;				
+	animation-direction: alternate;
+	animation-play-state: paused;
+}
+
+.ball:hover {				
+	animation-play-state: running;
+}
+			
+@keyframes ballmove {
+	0% {transform: translateX(0) rotate(0);}				
+	100% {transform: translateX(450px) rotate(6turn);}
+}

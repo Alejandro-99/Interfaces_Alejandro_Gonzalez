@@ -1,0 +1,21 @@
+body {background:#333;}
+
+
+		
+.dvd {				
+	animation-name: dvdmove;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;				
+	animation-fill-mode: both;
+	animation-direction: alternate;	
+}
+			
+@keyframes dvdmove {
+	0% {transform: translateX(0)}	
+	20% {transform: translateX(1550px) translateY(250px);}
+	40% {transform: translateX(0px) translateY(450px);}	
+	60% {transform: translateX(1550px) translateY(650px);}	
+	80% {transform: translateX(0px) translateY(800px);}				
+	100% {transform: translateX(1550px) translateY(850px)} 
+}

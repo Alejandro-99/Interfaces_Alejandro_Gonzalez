@@ -1,0 +1,23 @@
+#images {
+	width: 500px;
+	height: 500px;
+	background-position: top left;	
+	background-repeat: no-repeat;
+	background-image: url("124953.png");
+	background-size:contain;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;	
+	animation-name: Galeria;
+}
+
+@keyframes Galeria {
+	from {background-image: url("124953.png")}
+
+	25% {background-image: url("740284.png")}
+	
+	50% {background-image: url("818999.png")}
+	
+	75% {background-image: url("follow.png")}
+	
+	to {background-image: url("124953.png");}
+}
