@@ -28,6 +28,10 @@
     align-items: center;
     justify-content: center;
 }
+#cuerpo2-texto2 {
+    font-size: 1.4rem;
+    font-family: fantasy;
+}
 /* Contenedor 3  */
 #cuerpo3-imagenes {
     height: 100%;
