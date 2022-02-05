@@ -15,9 +15,9 @@
             <div class="img-barrita"></div>
             <div class="img-envi"></div>
             <div class="logo-letras">CABELLO´S WEAR</div>
-            <audio autoplay preload="auto" controls>
-                <source src="sonidos/Developers.ogg" type="audio/ogg" />
-                <source src="sonidos/Developers.mp3" type="audio/mpeg" />
+            <audio id="audio" autoplay preload="auto" controls>
+                <source src="sonidos/musica-fondo.ogg" type="audio/ogg" />
+                <source src="sonidos/musica-fondo.mp3" type="audio/mpeg" />
             </audio>
         </div>
         <div id="botones-imgD"> 
@@ -78,5 +78,9 @@
             </div>
         </div>
     </footer>
+    <script>
+        var audio = document.getElementById("audio");
+        audio.volume = 0.05; 
+      </script>
 </body>
 </html>
