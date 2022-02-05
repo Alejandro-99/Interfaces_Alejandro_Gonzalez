@@ -14,6 +14,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 @media screen and (max-width: 1650px) {
     #cuerpo3-imagenes {
         width: 50%;

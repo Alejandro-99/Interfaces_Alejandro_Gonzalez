@@ -19,9 +19,8 @@
     align-self: center;
     justify-content: center;
 }
-/* Contenedor 2 letras del medio */
+/* Contenedor 2 ,letras del medio*/
 #cuerpo2-texto {
-    height: 100%;
     font-size: 1.4rem;
     font-family: fantasy;
     display: flex;
@@ -31,6 +30,64 @@
 #cuerpo2-texto2 {
     font-size: 1.4rem;
     font-family: fantasy;
+}
+/*Contenedor 2 ,barra de carga animada*/
+#barra-carga {
+    width: 25em;
+    height: 3.1em;
+    margin: 0 auto;
+    border: 3px solid #000000;
+    border-radius:10px;
+}
+
+#barra {
+    width: 0;
+    height: 100%;
+    background: #797979;
+    border-radius: 5px;
+    animation: progreso 5s linear infinite;
+}
+
+#porcentaje {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.5em;
+    width: 12.5em;
+    height: 100%;
+    text-align: center;
+    color: #202020;
+    
+}
+#porcentaje:after {
+    content: '0%';
+    font-family: fantasy;
+    animation: num 5s linear infinite;
+}
+@keyframes progreso {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes num {
+    0% {
+        content: '0%';
+    }
+    25% {
+        content: '25%';
+    }
+    50% {
+        content: '50%';
+    }
+    75% {
+        content: '75%';
+    }
+    100% {
+        content: '100%';
+    }
 }
 /* Contenedor 3  */
 #cuerpo3-imagenes {
