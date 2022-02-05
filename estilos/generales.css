@@ -85,15 +85,17 @@ img {
         height: 1.7rem;
         width: 1.7rem;
     }
-
 }
 @media screen and (max-width: 576px) {
     #cuerpo1-imagen {
         width: 80%;
         height: 40%;
+        
     } 
     .img1-cuerpo3, .img2-cuerpo3, .img3-cuerpo3 {
         width: 300px;
         height: 380px; 
+        
     }
+   
 } 
