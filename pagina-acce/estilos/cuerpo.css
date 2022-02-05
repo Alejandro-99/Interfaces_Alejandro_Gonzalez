@@ -77,7 +77,14 @@
     border-radius: 8px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
-.img1-cuerpo3:hover , .img2-cuerpo3:hover , .img3-cuerpo3:hover {
+.video-cuerpo3 {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.img1-cuerpo3:hover , .img2-cuerpo3:hover , .img3-cuerpo3:hover, .video-cuerpo3:hover {
     filter: opacity(.8);
 }
 /* Tres textos de las imagenes */

@@ -16,8 +16,8 @@
             <div class="img-envi"></div>
             <div class="logo-letras">CABELLO´S WEAR</div>
             <figure class="audio">
-                <figcaption id="audio">Musica ambiental:</figcaption>
-            <audio id="audio" autoplay preload="auto" controls style="width:14rem;height:2rem;">
+                <figcaption class="audio">Musica ambiental:</figcaption>
+            <audio class ="audio" id="audio" autoplay preload="auto" controls style="width:14rem;height:2rem;">
                 <source src="sonidos/musica-fondo.ogg" type="audio/ogg" />
                 <source src="sonidos/musica-fondo.mp3" type="audio/mpeg" />
             </audio>
@@ -50,16 +50,18 @@
                 <div class="img3-cuerpo3">
                     <div class="texto-img"><span>LONELY LOVE T-SHIRT</span><span>~24,95€</span></div>
                 </div>
-                <div class="img1-cuerpo3">
-                    <div class="texto-img"><span>FAKE LOVE T-SHIRT</span><span>~28€<span></div>
+                <div class="video-cuerpo3">
+                    
+                    <video preload="none" loop controls width="560" height="315">
+                    <source src="videos/tienda-show.ogv" type="video/ogg">
+                    <source src="videos/tienda-show.mp4" type="video/mp4">
+                    </video>
                 </div>
-                <div class="img2-cuerpo3">
-                    <div class="texto-img"><span>ICONIC T-SHIRT</span><span>~24,95€</span></div>
+                <div class="video-cuerpo">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7m16dFI1AF8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- <iframe width="420" height="345" src="https://www.youtube.com/watch?v=7m16dFI1AF8&controls=2&loop=1&autoplay=0&mute=0"></iframe> -->
+                    <!-- No me deja poner el loop me deniega la conexion al video yt -->
                 </div>
-                <div class="img3-cuerpo3">
-                    <div class="texto-img"><span>LONELY LOVE T-SHIRT</span><span>~24,95€</span></div>
-                </div>
-            
         </div>
     </div>
    
@@ -83,7 +85,7 @@
     </footer>
     <script>
         var audio = document.getElementById("audio");
-        audio.volume = 0.02; 
+        audio.volume = 0.01; 
       </script>
 </body>
 </html>
