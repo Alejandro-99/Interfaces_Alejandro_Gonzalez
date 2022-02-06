@@ -38,8 +38,10 @@
     <div id="cuerpo">
         <!-- Etiqueta picture de la pagina -->
         <picture id="cuerpo1-imagen">
+            <source media="(min-width: 600px)" srcset="img/Captura_600px.png, img/Captura800.png 2x">
+            <source media="(max-width: 800px)" srcset="img/Captura800.png">
 
-            <img src="../img/Captura.PNG" alt="imagen">
+            <img src="img/Captura.PNG" alt="imagen">
 
         </picture>
         <div id="cuerpo2-texto">
@@ -86,7 +88,7 @@
                     <!-- <iframe width="420" height="345" src="https://www.youtube.com/watch?v=7m16dFI1AF8&controls=2&loop=1&autoplay=0&mute=0"></iframe> -->
                     <!-- No me deja poner el loop me deniega la conexion al video yt -->
                 </figure>
-                 <!-- Barra con transicion , estilos en cuerpo.css-->
+                <!-- Barra con transicion , estilos en cuerpo.css-->
                 <div class="barra"></div>
             </div>
 
