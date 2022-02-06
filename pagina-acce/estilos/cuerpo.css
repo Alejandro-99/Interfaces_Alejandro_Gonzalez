@@ -38,7 +38,6 @@
     border: 3px solid #000000;
     border-radius:10px;
 }
-
 #barra {
     width: 0;
     height: 100%;
@@ -46,7 +45,6 @@
     border-radius: 5px;
     animation: progreso 5s linear infinite;
 }
-
 #porcentaje {
     font-size: 2em;
     font-weight: bold;
@@ -70,22 +68,21 @@
         width: 100%;
     }
 }
-
 @keyframes num {
     0% {
-        content: '0%';
+        content: '0%.';
     }
     25% {
-        content: '25%';
+        content: '25%..';
     }
     50% {
-        content: '50%';
+        content: '50%...';
     }
     75% {
-        content: '75%';
+        content: '75%..';
     }
     100% {
-        content: '100%';
+        content: '100%.';
     }
 }
 /* Contenedor 3  */
@@ -100,7 +97,7 @@
     flex-wrap: wrap;
     gap:1.5rem;
 }
-/*Imagenes contenedor*/
+/*Imagenes contenedor + videos + transiciones*/
 .img1-cuerpo3 {
     background-image: url(../img/image.jpg);
     background-size:cover;
