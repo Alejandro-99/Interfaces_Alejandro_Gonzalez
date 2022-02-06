@@ -97,7 +97,7 @@
     flex-wrap: wrap;
     gap:1.5rem;
 }
-/*Imagenes contenedor + videos*/
+/*Imagenes contenedor + videos + transiciones*/
 .img1-cuerpo3 {
     background-image: url(../img/image.jpg);
     background-size:cover;
@@ -134,6 +134,10 @@
     border-radius: 8px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
+.img1-cuerpo3:hover , .img2-cuerpo3:hover , .img3-cuerpo3:hover {
+    filter: opacity(.8);
+}
+/* Transicion */
 .barra {
     display: flex;
     justify-content: center;
@@ -153,9 +157,6 @@
 .video-cuerpo3:hover .barra::after {
 	width: 100%;
 	left: 0;
-}
-.img1-cuerpo3:hover , .img2-cuerpo3:hover , .img3-cuerpo3:hover {
-    filter: opacity(.8);
 }
 /* Tres textos de las imagenes */
 .texto-img {
