@@ -46,15 +46,15 @@ public class EjercicioController {
             data.add("Indeterminate (pick a choice)");
         }
     	
-    	// Lista indeterminada donde cada item se obtiene de un ComboBox
+    
     	qualificationsList.setItems(data);
     	qualificationsList.setCellFactory(ComboBoxListCell.forListView(names)); 
     	
-    	// ComboBox con lista de países
+    	
     	langChoice.getItems().addAll("English", "Japanese", "Spanish");
     	langChoice.setValue("Select a language");
     	
-    	// ChoiceBox con separador
+    	
     	locationChoice.setItems(FXCollections.observableArrayList("New York", "Orlando", 
     		    new Separator(), "London", "Manchester"));
     	locationChoice.setValue("Select a value...");
@@ -66,19 +66,19 @@ public class EjercicioController {
 			e.printStackTrace();
 		}
 
-    	// Icono para el TreeView
+    	
     	ImageView imageView = new ImageView(new Image(fis)); 
     	imageView.setPreserveRatio(true);
     	imageView.setFitHeight(20);
 	    	
-    	// TreeView con icono y 4 ítems
+    	
     	TreeItem<String> rootItem = new TreeItem<String> ("Inbox", imageView);
     	rootItem.setExpanded(true);
     	
     	List<String> treeListItems = new ArrayList<String>(Arrays.asList("Sales", 
     			"Marketing", "Distribution", "Costs"));
     	
-    	// Nodos del TreeView
+    	
         for (String item : treeListItems) {
             TreeItem<String> treeItem = new TreeItem<String>(item);            
             rootItem.getChildren().add(treeItem);

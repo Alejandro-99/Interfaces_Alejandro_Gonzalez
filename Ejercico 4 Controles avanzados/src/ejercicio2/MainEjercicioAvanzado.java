@@ -13,12 +13,12 @@ public class MainEjercicioAvanzado extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			// Carga el diseño del archivo FXML en la variable rootLayout
+			
 			FXMLLoader loader = new FXMLLoader();
 			loader.setLocation(MainEjercicioAvanzado.class.getResource("EjercicioAvanzado.fxml"));
 			rootLayout = (BorderPane) loader.load();
 
-			// Mostramos la escena del BorderPane de la variable rootLayot
+			
 			Scene scene = new Scene(rootLayout);
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Ejercicio de controles avanzados");
