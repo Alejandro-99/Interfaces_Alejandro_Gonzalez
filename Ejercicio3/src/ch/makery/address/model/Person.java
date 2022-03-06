@@ -9,10 +9,7 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
-/**
- * Clase modelo para ejercicios.
- *
- */
+
 public class Person {
 
 	private final StringProperty firstName;
@@ -22,15 +19,12 @@ public class Person {
 	private final StringProperty city;
 	private final ObjectProperty<LocalDate> birthday;
 
-	/**
-	 * Constructor por defecto
-	 */
+	
 	public Person() {
 		this(null, null);
 	}
 	
 	/**
-	 * Constructor con nombre y primer apellido
 	 * 
 	 * @param firstName
 	 * @param lastName

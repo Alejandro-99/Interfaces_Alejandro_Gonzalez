@@ -19,11 +19,11 @@ public class Main extends Application {
 	private Stage primaryStage;
 	private BorderPane rootLayout;
 
-	// Alternativa con maps para incluir el listado de personas
+	
 	private ObservableList<Map<String,Object>> mapData = FXCollections.observableArrayList();
 	
 	public Main() {	
-		// Probamos el map con solo dos ítems, ya que como se puede observar requiere más líneas de código que la altenrativa anterior
+		
 		Map<String, Object> item1 = new HashMap<>();
 		item1.put("firstName", "Hans");
 		item1.put("lastName" , "Muster");
@@ -47,17 +47,15 @@ public class Main extends Application {
 		showPersonOverview();
 	}
 
-	/**
-	 * Inicializa el diseño de la pantalla principal.
-	 */
+	
 	public void initRootLayout() {
 		try {
-			// Carga el XML con el diseño principal
+			
 			FXMLLoader loader = new FXMLLoader();
 			loader.setLocation(Main.class.getResource("view/RootLayout.fxml"));
 			rootLayout = (BorderPane) loader.load();
 
-			// Se añade el diseño principal a la escena
+			
 			Scene scene = new Scene(rootLayout);
 			primaryStage.setScene(scene);
 			primaryStage.show();
@@ -66,20 +64,18 @@ public class Main extends Application {
 		}
 	}
 
-	/**
-	 * Muestra el diseño de PersonOverview dentro de la pantalla principal
-	 */
+	
 	public void showPersonOverview() {
 		try {
-			// Cargamos el archivo PersonOverview
+			
 			FXMLLoader loader = new FXMLLoader();
 			loader.setLocation(Main.class.getResource("view/PersonOverview.fxml"));
 			AnchorPane personOverview = (AnchorPane) loader.load();
 
-			// Se sitúa en el centro del diseño principal
+			
 			rootLayout.setCenter(personOverview);
 			
-			// Damos al controlador acceso a la aplicaicón principal
+			
 	        PersonOverviewController controller = loader.getController();
 	        controller.setMainApp(this);
 		} catch (IOException e) {
@@ -87,11 +83,7 @@ public class Main extends Application {
 		}
 	}
 
-	/**
-	 * Returns the main stage.
-	 * 
-	 * @return
-	 */
+	
 	public Stage getPrimaryStage() {
 		return primaryStage;
 	}
@@ -100,10 +92,7 @@ public class Main extends Application {
 		launch(args);
 	}
 	
-	/**
-	 * Método get para obtener el listado de personas (versión mapa)
-	 * @return
-	 */
+	
 	public ObservableList<Map<String,Object>> getMapData() {
 		return mapData;
 	}
