@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="draggableFiles.Controlador">
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="TOP_CENTER">
+         <children>
+            <HBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="442.0">
+               <children>
+                  <Text fx:id="inicio" onDragDetected="#handleDragDetected" onDragDone="#handleDragDone" strokeType="OUTSIDE" strokeWidth="0.0" text="Source String">
+                     <HBox.margin>
+                        <Insets right="300.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Text fx:id="fin" onDragDropped="#handleDragDroppedFin" onDragOver="#handleDragOverFin" strokeType="OUTSIDE" strokeWidth="0.0" text="Destination" />
+               </children>
+               <padding>
+                  <Insets bottom="30.0" />
+               </padding>
+            </HBox>
+            <AnchorPane prefHeight="200.0" prefWidth="557.0" style="-fx-border-color: black; -fx-border-radius: 2px;">
+               <VBox.margin>
+                  <Insets left="150.0" right="150.0" />
+               </VBox.margin>
+               <children>
+                  <ImageView fx:id="imagen" fitHeight="201.0" fitWidth="301.0" onDragDropped="#handleDragDropped" onDragOver="#handleDragOver" pickOnBounds="true" preserveRatio="true">
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <Text disable="true" layoutX="92.0" layoutY="105.0" opacity="0.46" strokeType="OUTSIDE" strokeWidth="0.0" text="Coloca la imagen aqui" AnchorPane.leftAnchor="92.0" />
+               </children>
+            </AnchorPane>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+</BorderPane>
