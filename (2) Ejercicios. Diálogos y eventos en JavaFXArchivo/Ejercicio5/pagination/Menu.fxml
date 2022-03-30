@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="394.0" prefWidth="378.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pagination.Controlador">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pagination fx:id="paginador" layoutX="18.0" layoutY="14.0" maxPageIndicatorCount="4" prefHeight="319.0" prefWidth="342.0" AnchorPane.bottomAnchor="61.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="14.0" />
+            <ProgressBar fx:id="barraP" layoutX="89.0" layoutY="353.0" prefWidth="200.0" progress="0.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
