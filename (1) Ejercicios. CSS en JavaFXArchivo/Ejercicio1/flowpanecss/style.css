@@ -1,0 +1,18 @@
+#boton2{
+	-fx-border-insets: 5;
+    -fx-background-insets: 5;
+    -fx-translate-y: 40;
+  
+}
+#boton3{
+	-fx-translate-y: 30;
+}
+#boton1{
+	-fx-padding: 20;
+	
+}
+#flowpane{
+	-fx-orientation: horizontal ;
+	
+	-fx-column-halignment: center ;
+}
